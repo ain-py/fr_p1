@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fr_p1/screens/dashboard.dart';
+import 'package:fr_p1/screens/profile.dart';
+import 'package:fr_p1/screens/signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Dashboard(),
+      home: const Signup(),
     );
   }
 }
